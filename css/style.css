@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url(../img/test.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: url(../img/icons8-luigi.svg), auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 25px;
+    width: 100%;
+    gap: 45px;
+    max-width: 1440px;
+}
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigation_link {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid white;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgba(101, 93, 240, 1) 29%, rgba(0, 212, 255, 1) 75%);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navigation_link:hover {
+    color: yellow;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 20px;
+    margin-left: 40px;
+    margin-top: 10%;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(101, 93, 240, 1) 29%, rgba(0, 212, 255, 1) 75%);
+}
+
+iframe {
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    width: 360px;
+    font-weight: 400;
+}
